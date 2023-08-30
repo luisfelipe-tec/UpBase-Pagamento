@@ -1,6 +1,5 @@
-/* Estilos.css (ou estilização equivalente no Styled Components) */
-/* PagamentoHeader.css */
-/* PagamentoHeader.css */
+
+
 .header {
     display: flex;
     align-items: center;
@@ -11,6 +10,7 @@
   }
   
   .back-arrow {
+    color: #ffffff;
     font-size: 20px;
     margin-right: 10px;
     cursor: pointer;

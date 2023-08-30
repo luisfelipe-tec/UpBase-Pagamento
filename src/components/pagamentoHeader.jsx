@@ -6,7 +6,7 @@ const PagamentoHeader = () => {
   return (
     <div className="header">
       {/* Ícone de retorno */}
-      <a className="back-arrow">
+      <a className="back-arrow" href="#">
         <FiArrowLeft />
       </a>
       <div className="page-title">Pagamento</div>
