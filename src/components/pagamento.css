@@ -8,10 +8,10 @@
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     color: #4C5957;
-    margin-top: 50px; /* Espaço superior */
+    margin-top: 30px; /* Espaço superior */
     margin-left: 30px; /* Espaço à esquerda */
     margin-right: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     overflow-wrap: break-word;
   }
 
@@ -67,8 +67,9 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 16px;
+    padding: 15px;
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   .navigation-menu {
@@ -136,7 +137,7 @@
   @media (min-width: 768px) {
     
     .paragrafo-conteudo {
-      margin-top: 50px;
+      margin-top: 30px;
       margin-left: 30px;
       margin-right: 50px;
     }
