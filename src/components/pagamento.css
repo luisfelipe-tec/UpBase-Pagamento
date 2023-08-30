@@ -8,7 +8,7 @@
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     color: #4C5957;
-    margin-top: 30px; /* Espaço superior */
+    margin-top: 23px; /* Espaço superior */
     margin-left: 30px; /* Espaço à esquerda */
     margin-right: 50px;
     margin-bottom: 20px;
@@ -45,7 +45,7 @@
   
   
   .form-container button.submit-button {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%; /* Largura igual aos inputs */
     background-color: #07689f;
     color: #ffffff;
@@ -67,7 +67,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 7px;
   }
 
   .navigation-menu {
