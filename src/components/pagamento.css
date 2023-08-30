@@ -1,8 +1,6 @@
 
 
-.conteudo-pagina{
-    background-color: #f8f8f8;
-}
+
 .paragrafo-conteudo{
     size: 16px;
     font-weight: 500;
@@ -104,13 +102,13 @@
   @media (max-width: 375px) {
     paragrafo-conteudo {
         font-size: 14px; /* Tamanho de fonte menor */
-        margin-top: 20px; /* Espaçamento superior menor */
-        margin-bottom: 20px; /* Espaçamento inferior menor */
+        margin-top: 10px; /* Espaçamento superior menor */
+        margin-bottom: 10px; /* Espaçamento inferior menor */
       }
     
       .form-container {
-        margin-left: 15px; /* Espaçamento à esquerda menor */
-        margin-right: 15px; /* Espaçamento à direita menor */
+        margin-left: 10px; /* Espaçamento à esquerda menor */
+        margin-right: 10px; /* Espaçamento à direita menor */
       }
     
       .form-container input {
@@ -120,7 +118,7 @@
     
       .form-container a.back-button {
         font-size: 14px; /* Tamanho de fonte menor */
-        margin-top: 5px; /* Espaçamento superior menor */
+        margin-top: 3px; /* Espaçamento superior menor */
       }
     
       .navigation-menu {
