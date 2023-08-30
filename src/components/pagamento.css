@@ -71,7 +71,7 @@
 
   .navigation-menu {
    
-    display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #ffffff;
@@ -134,9 +134,57 @@
         margin-top: 3px; /* Espaçamento superior menor */
       }
   }
- 
+
+
   @media (min-width: 768px) {
     
+
+    pagamento-page{
+      overflow-y: scroll;
+      max-height: calc(100vh - 80px);
+    }
+    paragrafo-conteudo {
+        font-size: 14px; /* Tamanho de fonte menor */
+        margin-top: 10px; /* Espaçamento superior menor */
+        margin-bottom: 10px; /* Espaçamento inferior menor */
+      }
+    
+      .form-container {
+        margin-left: 10px; /* Espaçamento à esquerda menor */
+        margin-right: 10px; /* Espaçamento à direita menor */
+      }
+    
+      .form-container input {
+        font-size: 14px; /* Tamanho de fonte menor */
+        padding: 15px; /* Espaçamento interno menor */
+      }
+    
+      .form-container a.back-button {
+        font-size: 14px; /* Tamanho de fonte menor */
+        margin-top: 3px; /* Espaçamento superior menor */
+      }
+    
+      .navigation-menu {
+        padding: 5px 0; /* Espaçamento interno menor */
+      }
+    
+      .navigation-menu a span {
+        font-size: 10px; /* Tamanho de fonte menor */
+        margin-top: 3px; /* Espaçamento superior menor */
+      }
+  
+
+  
+    
+  }
+
+ 
+  /**@media (min-width: 768px) {
+    
+    pagamento-page{
+      overflow-y: scroll;
+      max-height: calc(100vh - 80px);
+    }
     .paragrafo-conteudo {
       margin-top: 30px;
       margin-left: 30px;
@@ -149,15 +197,15 @@
     }
   
     .navigation-menu {
-        flex-direction: row; /* Altera a direção para linha */
-        gap: 20px; /* Espaço entre os itens */
-        justify-content: center; /* Centraliza horizontalmente */
+        flex-direction: row; /* Altera a direção para linha 
+        gap: 20px; /* Espaço entre os itens 
+        justify-content: center; /* Centraliza horizontalmente 
         margin-top: 0;
       }
   
     .navigation-menu a span {
       margin-top: 0;
     }
-  }
+  }*/
 
  
