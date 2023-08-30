@@ -6,9 +6,9 @@ const PagamentoHeader = () => {
   return (
     <div className="header">
       {/* Ícone de retorno */}
-      <div className="back-arrow">
+      <a className="back-arrow">
         <FiArrowLeft />
-      </div>
+      </a>
       <div className="page-title">Pagamento</div>
     </div>
   );
