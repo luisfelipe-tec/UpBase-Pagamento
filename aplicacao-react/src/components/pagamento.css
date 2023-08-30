@@ -1,0 +1,161 @@
+
+
+.conteudo-pagina{
+    background-color: #f8f8f8;
+}
+.paragrafo-conteudo{
+    size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #4C5957;
+    margin-top: 50px; /* Espaço superior */
+    margin-left: 30px; /* Espaço à esquerda */
+    margin-right: 50px;
+    margin-bottom: 30px;
+    overflow-wrap: break-word;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px; /* Espaço à esquerda */
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+   
+  .form-container input {
+    padding: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color:#4C5957;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    background-color: #ffffff;
+  }
+ 
+
+  .form-container input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+  }
+  
+  
+  
+  .form-container button.submit-button {
+    margin-top: 30px;
+    width: 100%; /* Largura igual aos inputs */
+    background-color: #07689f;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .form-container a.back-button {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: #07689f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .navigation-menu {
+   
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px 0;
+  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1; /* Defina um valor maior que o z-index do botão "Voltar" */
+  margin-top: 10px; /* Espaço para evitar sobreposição */
+  }
+  
+  .navigation-menu a {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #555555;
+  }
+  
+  .navigation-menu a span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  @media (max-width: 375px) {
+    paragrafo-conteudo {
+        font-size: 14px; /* Tamanho de fonte menor */
+        margin-top: 20px; /* Espaçamento superior menor */
+        margin-bottom: 20px; /* Espaçamento inferior menor */
+      }
+    
+      .form-container {
+        margin-left: 15px; /* Espaçamento à esquerda menor */
+        margin-right: 15px; /* Espaçamento à direita menor */
+      }
+    
+      .form-container input {
+        font-size: 14px; /* Tamanho de fonte menor */
+        padding: 15px; /* Espaçamento interno menor */
+      }
+    
+      .form-container a.back-button {
+        font-size: 14px; /* Tamanho de fonte menor */
+        margin-top: 5px; /* Espaçamento superior menor */
+      }
+    
+      .navigation-menu {
+        padding: 5px 0; /* Espaçamento interno menor */
+      }
+    
+      .navigation-menu a span {
+        font-size: 10px; /* Tamanho de fonte menor */
+        margin-top: 3px; /* Espaçamento superior menor */
+      }
+  }
+ 
+  @media (min-width: 768px) {
+    
+    .paragrafo-conteudo {
+      margin-top: 50px;
+      margin-left: 30px;
+      margin-right: 50px;
+    }
+  
+    .form-container {
+      margin-left: 30px;
+      margin-right: 45px;
+    }
+  
+    .navigation-menu {
+        flex-direction: row; /* Altera a direção para linha */
+        gap: 20px; /* Espaço entre os itens */
+        justify-content: center; /* Centraliza horizontalmente */
+        margin-top: 0;
+      }
+  
+    .navigation-menu a span {
+      margin-top: 0;
+    }
+  }
+
+ 
